@@ -29,13 +29,13 @@
     <script type="text/javascript">
       var emulator = new Emulator(document.querySelector("#canvas"),
                                   null,
-                                  new JSMAMELoader(JSMAMELoader.driver("targ"),
+                                  new JSMAMELoader(JSMAMELoader.driver("wow"),
                                                    JSMAMELoader.nativeResolution(256, 256),
                                                    JSMAMELoader.scale(3),
-                                                   JSMAMELoader.emulatorJS("../mameexidy.js"),
-                                                   JSMAMELoader.mountFile("targ.zip",
+                                                   JSMAMELoader.emulatorJS("../mameastrocde.js"),
+                                                   JSMAMELoader.mountFile("wow.zip",
                                                                           JSMAMELoader.fetchFile("Game File",
-                                                                                                 "../examples/targ.zip"))))
+                                                                                                 "../examples/wow.zip"))))
       emulator.start({ waitAfterDownloading: true });
     </script>
   </body>
